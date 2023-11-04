@@ -87,7 +87,7 @@ To implement Shortest Job First (SJF) Preemptive Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-c
+```py
 #include<stdio.h>
 int main()
 {
@@ -141,10 +141,10 @@ printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
 
-
+```
 
 ## OUTPUT:
-![output](./2.png)
+![2](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/49984c86-9b28-40cb-a835-89d6fecda7e3)
 
 ## RESULT:
 Shortest Job First (SJF) preemptive scheduling is implemented successfully.
@@ -178,7 +178,7 @@ To implement Shortest Job First (SJF) Non-Preemptive Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-py
+```py
 def sjf_non_preemptive(processes, burst_time):
     n = len(processes)
 
@@ -221,11 +221,11 @@ if __name__ == "__main__":
     processes = ['P1', 'P2', 'P3', 'P4', 'P5']
     burst_time = [6, 8, 7, 3, 2]
     sjf_non_preemptive(processes, burst_time)
-
+```
 
 ## OUTPUT:
+![3](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/2ce826f1-224e-4222-8093-e1f4fd322496)
 
-![output](./3.png)
 ## RESULT:
 Shortest Job First (SJF) Non-preemptive scheduling is implemented successfully.
 # Round Robin (RR) Scheduling
@@ -256,7 +256,7 @@ To implement Round Robin (RR) Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-c
+```py
 #include<stdio.h>
 
 int main() {
@@ -316,10 +316,10 @@ int main() {
 }
 
 
-
+```
 ## OUTPUT:
 
-![output](./4.png)
+![4](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/b1da7138-3689-4fa6-9da4-309f70d2d6bb)
 ## RESULT:
 Round Robin (RR) Scheduling is implemented successfully.
 
@@ -347,7 +347,7 @@ To implement Priority Preemptive Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-py
+```py
 def priority_preemptive(processes, burst_time, priorities):
     n = len(processes)
     remaining_time = list(burst_time)  # Initialize remaining time for each process
@@ -394,11 +394,11 @@ if __name__ == "__main__":
     priorities = [2, 1, 3, 4]
     priority_preemptive(processes, burst_time, priorities)
 
-
+```
 
 ## OUTPUT:
+![5](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/7837782a-5cf1-46cd-8d97-a88d8ebea3d9)
 
-![output](./5.png)
 ## RESULT: 
 Priority Preemptive scheduling is implemented successfully.
 
@@ -424,7 +424,7 @@ To implement Priority Non-Preemptive Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-py
+```py
 def priority_non_preemptive(processes, burst_time, priorities):
     n = len(processes)
     completion_time = [0] * n
@@ -468,10 +468,10 @@ if __name__ == "__main__":
     burst_time = [8, 6, 1, 9]
     priorities = [2, 1, 3, 4]
     priority_non_preemptive(processes, burst_time, priorities)
-
+```
 
 ## OUTPUT:
-![output](./6.png)
+![6](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/6a93629c-8bf2-4a61-bdb1-e7dc52856378)
 
 ## RESULT: 
 Priority Non-preemptive scheduling is implemented successfully.
