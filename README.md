@@ -15,7 +15,7 @@ To implement First-Come-First-Serve (FCFS) Scheduling
 ## PROGRAM:
 ### Developed by : PRIYANKA.A
 ### Register Number : 212222230113
-c
+```py
 #include <stdio.h>
 int main()
 {
@@ -52,9 +52,9 @@ printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
 
-
+```
 ## OUTPUT:
-![output](./1.png)
+![1](https://github.com/PriyankaAnnadurai/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118351569/dd96837e-dcfc-4d8f-a909-7328f8474de7)
 
 ## RESULT: 
 First-Come-First-Serve Scheduling is implemented successfully.
